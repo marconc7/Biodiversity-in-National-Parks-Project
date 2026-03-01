@@ -45,8 +45,7 @@ The analysis followed a structured workflow to ensure data integrity:
 1. **Data Cleaning:** Handled missing and duplicate values in both `observations` and `species_info` datasets.
 2. **Feature Engineering:** Created an `is_protected` categorical variable to simplify the "at-risk" vs. "not-at-risk" comparison.
 3. **Data Merging:** Combined the `species` and `observations` datasets to map sightings to specific conservation categories.
-4. **Aggregation:** Used pandas `groupby` method to compare species frequency and protection rates across the four parks.
-
+4. **Aggregation:** Pandas `groupby` and `crosstab' methods were used to aggregate data, which was then used as input to create visualizations.
 
 ## 📊 Key Findings & Insights
 
