@@ -45,11 +45,13 @@ The analysis followed a structured workflow to ensure data integrity:
 1. **Data Cleaning:** Handled missing and duplicate values in both `observations` and `species_info` datasets.
 2. **Feature Engineering:** Created an `is_protected` categorical variable to simplify the "at-risk" vs. "not-at-risk" comparison.
 3. **Data Merging:** Combined the `species` and `observations` datasets to map sightings to specific conservation categories.
-4. **Aggregation:** Pandas `groupby` and `crosstab' methods were used to aggregate data, which was then used as input to create visualizations.
+4. **Aggregation:** Pandas `groupby` and `crosstab` methods were used to aggregate data, which was then used as input to create visualizations.
 
 ## 📊 Key Findings & Insights
 
 The project yielded several significant insights:
+
+* **Biodiversity Balance:** Across all parks, plants dominate the landscape, accounting for 83% of all observations. Among animals, birds are the most frequently sighted (51%), followed by mammals (21%).
 
 * **Protection Disparity:** Mammals (17.05%) and Birds (15.37%) have significantly higher protection rates compared to Plants (<2%).
 
